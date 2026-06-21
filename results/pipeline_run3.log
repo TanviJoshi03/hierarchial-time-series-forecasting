@@ -1,0 +1,109 @@
+=================================================================
+  Hierarchical Time Series Forecasting — Full Pipeline
+=================================================================
+
+[1/7] Generating synthetic retail dataset …
+    Ground truth saved → results/ground_truth.json
+    Train: 2020-01-01 → 2022-12-03
+    Test : 2022-12-04 → 2022-12-31
+    Products: 30 | Categories: 6 | Depts: 2
+
+[2a/7] Fitting ARIMA …
+    total (1 series) … done
+    department (2 series) … done
+    category (6 series) … done
+    product (30 series) … done
+
+[2a/7] Fitting Prophet …
+    total (1 series) … Importing plotly failed. Interactive plots will not work.
+18:20:19 - cmdstanpy - INFO - Chain [1] start processing
+18:20:19 - cmdstanpy - INFO - Chain [1] done processing
+done
+    department (2 series) … 18:20:20 - cmdstanpy - INFO - Chain [1] start processing
+18:20:20 - cmdstanpy - INFO - Chain [1] done processing
+18:20:20 - cmdstanpy - INFO - Chain [1] start processing
+18:20:20 - cmdstanpy - INFO - Chain [1] done processing
+done
+    category (6 series) … 18:20:20 - cmdstanpy - INFO - Chain [1] start processing
+18:20:20 - cmdstanpy - INFO - Chain [1] done processing
+18:20:20 - cmdstanpy - INFO - Chain [1] start processing
+18:20:20 - cmdstanpy - INFO - Chain [1] done processing
+18:20:20 - cmdstanpy - INFO - Chain [1] start processing
+18:20:21 - cmdstanpy - INFO - Chain [1] done processing
+18:20:21 - cmdstanpy - INFO - Chain [1] start processing
+18:20:21 - cmdstanpy - INFO - Chain [1] done processing
+18:20:21 - cmdstanpy - INFO - Chain [1] start processing
+18:20:21 - cmdstanpy - INFO - Chain [1] done processing
+18:20:21 - cmdstanpy - INFO - Chain [1] start processing
+18:20:21 - cmdstanpy - INFO - Chain [1] done processing
+done
+    product (30 series) … 18:20:21 - cmdstanpy - INFO - Chain [1] start processing
+18:20:21 - cmdstanpy - INFO - Chain [1] done processing
+18:20:22 - cmdstanpy - INFO - Chain [1] start processing
+18:20:22 - cmdstanpy - INFO - Chain [1] done processing
+18:20:22 - cmdstanpy - INFO - Chain [1] start processing
+18:20:22 - cmdstanpy - INFO - Chain [1] done processing
+18:20:22 - cmdstanpy - INFO - Chain [1] start processing
+18:20:22 - cmdstanpy - INFO - Chain [1] done processing
+18:20:22 - cmdstanpy - INFO - Chain [1] start processing
+18:20:22 - cmdstanpy - INFO - Chain [1] done processing
+18:20:22 - cmdstanpy - INFO - Chain [1] start processing
+18:20:23 - cmdstanpy - INFO - Chain [1] done processing
+18:20:23 - cmdstanpy - INFO - Chain [1] start processing
+18:20:23 - cmdstanpy - INFO - Chain [1] done processing
+18:20:23 - cmdstanpy - INFO - Chain [1] start processing
+18:20:23 - cmdstanpy - INFO - Chain [1] done processing
+18:20:23 - cmdstanpy - INFO - Chain [1] start processing
+18:20:23 - cmdstanpy - INFO - Chain [1] done processing
+18:20:23 - cmdstanpy - INFO - Chain [1] start processing
+18:20:23 - cmdstanpy - INFO - Chain [1] done processing
+18:20:24 - cmdstanpy - INFO - Chain [1] start processing
+18:20:24 - cmdstanpy - INFO - Chain [1] done processing
+18:20:24 - cmdstanpy - INFO - Chain [1] start processing
+18:20:24 - cmdstanpy - INFO - Chain [1] done processing
+18:20:24 - cmdstanpy - INFO - Chain [1] start processing
+18:20:24 - cmdstanpy - INFO - Chain [1] done processing
+18:20:24 - cmdstanpy - INFO - Chain [1] start processing
+18:20:24 - cmdstanpy - INFO - Chain [1] done processing
+18:20:24 - cmdstanpy - INFO - Chain [1] start processing
+18:20:25 - cmdstanpy - INFO - Chain [1] done processing
+18:20:25 - cmdstanpy - INFO - Chain [1] start processing
+18:20:25 - cmdstanpy - INFO - Chain [1] done processing
+18:20:25 - cmdstanpy - INFO - Chain [1] start processing
+18:20:25 - cmdstanpy - INFO - Chain [1] done processing
+18:20:25 - cmdstanpy - INFO - Chain [1] start processing
+18:20:25 - cmdstanpy - INFO - Chain [1] done processing
+18:20:25 - cmdstanpy - INFO - Chain [1] start processing
+18:20:25 - cmdstanpy - INFO - Chain [1] done processing
+18:20:26 - cmdstanpy - INFO - Chain [1] start processing
+18:20:26 - cmdstanpy - INFO - Chain [1] done processing
+18:20:26 - cmdstanpy - INFO - Chain [1] start processing
+18:20:26 - cmdstanpy - INFO - Chain [1] done processing
+18:20:26 - cmdstanpy - INFO - Chain [1] start processing
+18:20:26 - cmdstanpy - INFO - Chain [1] done processing
+18:20:26 - cmdstanpy - INFO - Chain [1] start processing
+18:20:26 - cmdstanpy - INFO - Chain [1] done processing
+18:20:26 - cmdstanpy - INFO - Chain [1] start processing
+18:20:26 - cmdstanpy - INFO - Chain [1] done processing
+18:20:27 - cmdstanpy - INFO - Chain [1] start processing
+18:20:27 - cmdstanpy - INFO - Chain [1] done processing
+18:20:27 - cmdstanpy - INFO - Chain [1] start processing
+18:20:27 - cmdstanpy - INFO - Chain [1] done processing
+18:20:27 - cmdstanpy - INFO - Chain [1] start processing
+18:20:27 - cmdstanpy - INFO - Chain [1] done processing
+18:20:27 - cmdstanpy - INFO - Chain [1] start processing
+18:20:27 - cmdstanpy - INFO - Chain [1] done processing
+18:20:27 - cmdstanpy - INFO - Chain [1] start processing
+18:20:27 - cmdstanpy - INFO - Chain [1] done processing
+18:20:28 - cmdstanpy - INFO - Chain [1] start processing
+18:20:28 - cmdstanpy - INFO - Chain [1] done processing
+done
+
+[2a/7] Fitting LSTM …
+    total (1 series) … done
+    department (2 series) … done
+    category (6 series) … done
+    product (30 series) … done
+
+[2b/7] Fitting GBM models (LightGBM + XGBoost) …
+      Fitting LGBM global model … 

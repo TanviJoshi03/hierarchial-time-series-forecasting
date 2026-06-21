@@ -1,0 +1,12 @@
+=================================================================
+  Hierarchical Time Series Forecasting — Full Pipeline
+=================================================================
+
+[1/7] Generating synthetic retail dataset …
+    Ground truth saved → results/ground_truth.json
+    Train: 2020-01-01 → 2022-12-03
+    Test : 2022-12-04 → 2022-12-31
+    Products: 30 | Categories: 6 | Depts: 2
+
+[2b/7] Fitting GBM models (LightGBM + XGBoost) …
+      Fitting LGBM global model … 

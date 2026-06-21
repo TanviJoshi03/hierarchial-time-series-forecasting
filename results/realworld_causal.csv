@@ -1,0 +1,3 @@
+coef_log,lift_pct,ci_lo_pct,ci_hi_pct,p_value,coef_log_price_ctrl,lift_pct_price_ctrl,ci_lo_price_ctrl,ci_hi_price_ctrl,p_value_price_ctrl,n_events,n_obs,mean_diff_log,t_stat,n_treatment_obs,n_control_obs,dataset
+0.109,11.51,-1.17,25.83,0.0769,-0.2986,-25.81,-36.58,-13.21,0.0002,200.0,7341.0,,,,,online_retail_ii
+,-20.36,-27.9,-12.03,8e-06,,,,,,,,-0.2277,-4.486,941.0,6028.0,online_retail_ii

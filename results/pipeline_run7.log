@@ -1,0 +1,226 @@
+=================================================================
+  Hierarchical Time Series Forecasting — Full Pipeline
+=================================================================
+
+[1/7] Generating synthetic retail dataset …
+    Ground truth saved → results/ground_truth.json
+    Train: 2020-01-01 → 2022-12-03
+    Test : 2022-12-04 → 2022-12-31
+    Products: 30 | Categories: 6 | Depts: 2
+
+[2b/7] Fitting GBM models (LightGBM + XGBoost) …
+      Fitting LGBM global model … done
+      Fitting XGB global model … done
+
+[2a/7] Fitting ARIMA …
+    total (1 series) … done
+    department (2 series) … done
+    category (6 series) … done
+    product (30 series) … done
+
+[2a/7] Fitting Prophet …
+    total (1 series) … Importing plotly failed. Interactive plots will not work.
+21:56:47 - cmdstanpy - INFO - Chain [1] start processing
+21:56:47 - cmdstanpy - INFO - Chain [1] done processing
+done
+    department (2 series) … 21:56:47 - cmdstanpy - INFO - Chain [1] start processing
+21:56:47 - cmdstanpy - INFO - Chain [1] done processing
+21:56:47 - cmdstanpy - INFO - Chain [1] start processing
+21:56:47 - cmdstanpy - INFO - Chain [1] done processing
+done
+    category (6 series) … 21:56:47 - cmdstanpy - INFO - Chain [1] start processing
+21:56:48 - cmdstanpy - INFO - Chain [1] done processing
+21:56:48 - cmdstanpy - INFO - Chain [1] start processing
+21:56:48 - cmdstanpy - INFO - Chain [1] done processing
+21:56:48 - cmdstanpy - INFO - Chain [1] start processing
+21:56:48 - cmdstanpy - INFO - Chain [1] done processing
+21:56:48 - cmdstanpy - INFO - Chain [1] start processing
+21:56:48 - cmdstanpy - INFO - Chain [1] done processing
+21:56:48 - cmdstanpy - INFO - Chain [1] start processing
+21:56:48 - cmdstanpy - INFO - Chain [1] done processing
+21:56:48 - cmdstanpy - INFO - Chain [1] start processing
+21:56:49 - cmdstanpy - INFO - Chain [1] done processing
+done
+    product (30 series) … 21:56:49 - cmdstanpy - INFO - Chain [1] start processing
+21:56:49 - cmdstanpy - INFO - Chain [1] done processing
+21:56:49 - cmdstanpy - INFO - Chain [1] start processing
+21:56:49 - cmdstanpy - INFO - Chain [1] done processing
+21:56:49 - cmdstanpy - INFO - Chain [1] start processing
+21:56:49 - cmdstanpy - INFO - Chain [1] done processing
+21:56:49 - cmdstanpy - INFO - Chain [1] start processing
+21:56:49 - cmdstanpy - INFO - Chain [1] done processing
+21:56:50 - cmdstanpy - INFO - Chain [1] start processing
+21:56:50 - cmdstanpy - INFO - Chain [1] done processing
+21:56:50 - cmdstanpy - INFO - Chain [1] start processing
+21:56:50 - cmdstanpy - INFO - Chain [1] done processing
+21:56:50 - cmdstanpy - INFO - Chain [1] start processing
+21:56:50 - cmdstanpy - INFO - Chain [1] done processing
+21:56:50 - cmdstanpy - INFO - Chain [1] start processing
+21:56:50 - cmdstanpy - INFO - Chain [1] done processing
+21:56:50 - cmdstanpy - INFO - Chain [1] start processing
+21:56:50 - cmdstanpy - INFO - Chain [1] done processing
+21:56:51 - cmdstanpy - INFO - Chain [1] start processing
+21:56:51 - cmdstanpy - INFO - Chain [1] done processing
+21:56:51 - cmdstanpy - INFO - Chain [1] start processing
+21:56:51 - cmdstanpy - INFO - Chain [1] done processing
+21:56:51 - cmdstanpy - INFO - Chain [1] start processing
+21:56:51 - cmdstanpy - INFO - Chain [1] done processing
+21:56:51 - cmdstanpy - INFO - Chain [1] start processing
+21:56:51 - cmdstanpy - INFO - Chain [1] done processing
+21:56:51 - cmdstanpy - INFO - Chain [1] start processing
+21:56:52 - cmdstanpy - INFO - Chain [1] done processing
+21:56:52 - cmdstanpy - INFO - Chain [1] start processing
+21:56:52 - cmdstanpy - INFO - Chain [1] done processing
+21:56:52 - cmdstanpy - INFO - Chain [1] start processing
+21:56:52 - cmdstanpy - INFO - Chain [1] done processing
+21:56:52 - cmdstanpy - INFO - Chain [1] start processing
+21:56:52 - cmdstanpy - INFO - Chain [1] done processing
+21:56:52 - cmdstanpy - INFO - Chain [1] start processing
+21:56:52 - cmdstanpy - INFO - Chain [1] done processing
+21:56:52 - cmdstanpy - INFO - Chain [1] start processing
+21:56:53 - cmdstanpy - INFO - Chain [1] done processing
+21:56:53 - cmdstanpy - INFO - Chain [1] start processing
+21:56:53 - cmdstanpy - INFO - Chain [1] done processing
+21:56:53 - cmdstanpy - INFO - Chain [1] start processing
+21:56:53 - cmdstanpy - INFO - Chain [1] done processing
+21:56:53 - cmdstanpy - INFO - Chain [1] start processing
+21:56:53 - cmdstanpy - INFO - Chain [1] done processing
+21:56:53 - cmdstanpy - INFO - Chain [1] start processing
+21:56:53 - cmdstanpy - INFO - Chain [1] done processing
+21:56:53 - cmdstanpy - INFO - Chain [1] start processing
+21:56:54 - cmdstanpy - INFO - Chain [1] done processing
+21:56:54 - cmdstanpy - INFO - Chain [1] start processing
+21:56:54 - cmdstanpy - INFO - Chain [1] done processing
+21:56:54 - cmdstanpy - INFO - Chain [1] start processing
+21:56:54 - cmdstanpy - INFO - Chain [1] done processing
+21:56:54 - cmdstanpy - INFO - Chain [1] start processing
+21:56:54 - cmdstanpy - INFO - Chain [1] done processing
+21:56:54 - cmdstanpy - INFO - Chain [1] start processing
+21:56:54 - cmdstanpy - INFO - Chain [1] done processing
+21:56:54 - cmdstanpy - INFO - Chain [1] start processing
+21:56:55 - cmdstanpy - INFO - Chain [1] done processing
+21:56:55 - cmdstanpy - INFO - Chain [1] start processing
+21:56:55 - cmdstanpy - INFO - Chain [1] done processing
+done
+
+[2c/7] Fitting LSTM …
+    total (1 series) … done
+    department (2 series) … done
+    category (6 series) … done
+    product (30 series) … done
+
+[3/7] Hierarchical reconciliation …
+
+--- Forecast Evaluation ---
+
+          model              level   RMSE    MAE
+          ARIMA           category  32.80  29.56
+          ARIMA         department  64.08  56.30
+          ARIMA            product  11.57   9.44
+          ARIMA              total 129.98 115.43
+           LGBM           category  31.47  25.79
+           LGBM         department  55.78  46.58
+           LGBM            product  11.84   9.01
+           LGBM              total  92.47  80.40
+           LSTM           category  45.24  39.47
+           LSTM         department  67.52  54.37
+           LSTM            product  12.96  10.77
+           LSTM              total 100.39  85.78
+      OLS-ARIMA product_reconciled  11.17   9.28
+       OLS-LSTM product_reconciled  13.42  11.22
+    OLS-Prophet product_reconciled  10.62   7.87
+        Prophet           category  24.92  20.67
+        Prophet         department  51.06  42.95
+        Prophet            product  10.66   7.96
+        Prophet              total  83.43  67.71
+  TopDown-ARIMA product_reconciled  16.92  13.90
+   TopDown-LSTM product_reconciled  16.70  13.50
+TopDown-Prophet product_reconciled  16.44  13.27
+      WLS-ARIMA product_reconciled  11.09   9.24
+       WLS-LSTM product_reconciled  13.06  10.97
+    WLS-Prophet product_reconciled  10.56   7.83
+        XGBoost           category  32.72  27.23
+        XGBoost         department  63.03  53.06
+        XGBoost            product  12.09   9.05
+        XGBoost              total 101.03  83.16
+
+[4/7] Bayesian hierarchical price-elasticity estimation …
+    Preparing data …
+    Fitting PyMC model  (32,040 obs, 6 categories, 30 products) …
+Initializing NUTS using jitter+adapt_diag...
+Sequential sampling (1 chains in 1 job)
+NUTS: [mu_beta, sigma_beta, beta_cat, alpha, gamma, dow_effect, month_effect, sigma]
+                                                                                
+                                  Step    Grad                                  
+  Progress        Draw    Dive…   size    evals   Speed          Elap…   Rema…  
+ ────────────────────────────────────────────────────────────────────────────── 
+  ━━━━━━━━━━━━━   2000    0       0.007   479     3.24 draws/s   0:10…   0:00…  
+                                                                                
+Sampling 1 chain for 1_000 tune and 1_000 draw iterations (1_000 + 1_000 draws total) took 617 seconds.
+Chain 0 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
+Only one chain was sampled, this makes it impossible to run some convergence checks
+
+    ── Elasticity Recovery ──
+category  estimated_beta  eti_lo  eti_hi  true_beta  error
+  FOOD_1          -1.446   -1.50   -1.40       -1.3 -0.146
+  FOOD_2          -1.121   -1.20   -1.10       -1.1 -0.021
+  FOOD_3          -0.846   -0.89   -0.80       -0.9  0.054
+    HH_1          -0.556   -0.60   -0.52       -0.6  0.044
+    HH_2          -0.632   -0.67   -0.59       -0.5 -0.132
+    HH_3          -0.766   -0.80   -0.73       -0.7 -0.066
+
+    gamma (promo lift): estimated=0.166  90%ETI=[0.160, 0.170]  true=0.18
+
+    ── Pricing Scenarios (±10% price) ──
+category  price_change_pct  demand_change_pct  revenue_change_pct  optimal_direction
+  FOOD_1             -10.0              16.46                4.81               True
+  FOOD_1              10.0             -12.87               -4.16              False
+  FOOD_2             -10.0              12.54                1.28               True
+  FOOD_2              10.0             -10.13               -1.15              False
+  FOOD_3             -10.0               9.32               -1.61              False
+  FOOD_3              10.0              -7.75                1.48               True
+    HH_1             -10.0               6.03               -4.57              False
+    HH_1              10.0              -5.16                4.32               True
+    HH_2             -10.0               6.89               -3.80              False
+    HH_2              10.0              -5.85                3.57               True
+    HH_3             -10.0               8.41               -2.44              False
+    HH_3              10.0              -7.04                2.26               True
+
+[5/7] Causal promo-lift estimation …
+    Building event-study panel … 200 events, 13,451 rows
+    Running diff-in-diff regression … done
+    Running A/B test … done
+
+    ── Causal Lift Estimates ──
+    DiD (raw, incl. price)    : lift=51.72%  95%CI=[48.85%, 54.64%]
+    DiD (price-controlled ≈ γ): lift=8.37%  95%CI=[1.77%, 15.40%]  (true γ lift=19.72%)
+    A/B (raw)                 : lift=43.71%  95%CI=[40.68%, 46.80%]
+
+[6/7] Cold-start forecasting via description embeddings …
+    Held-out product: FOOD_1_P5
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 6847.46it/s]
+    Encoding 30 product descriptions … done
+    Nearest neighbours for 'FOOD_1_P5':
+      FOOD_1_P4  (cosine=0.810)  'FOOD_1_P4 wholegrain snack pack 500g'
+      FOOD_1_P1  (cosine=0.791)  'FOOD_1_P1 organic snack pack 100g'
+      FOOD_1_P3  (cosine=0.784)  'FOOD_1_P3 natural snack pack 1L'
+
+    ── Cold-Start Results ──
+    Cold-start RMSE : 91.84
+    Naive RMSE      : 103.57
+    Improvement     : 11.3% vs naive
+
+[7/7] Real-world validation (Online Retail II) …
+    [SKIP] Already completed separately — see results/realworld_*.csv
+
+[8/7] Compiling results/summary.csv …
+    Saved → results/summary.csv  (40 rows)
+
+Generating plots …
+
+All plots saved to results/
+
+=================================================================
+ Pipeline complete.
+=================================================================

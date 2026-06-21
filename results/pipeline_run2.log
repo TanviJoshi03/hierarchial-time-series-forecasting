@@ -1,0 +1,15 @@
+=================================================================
+  Hierarchical Time Series Forecasting — Full Pipeline
+=================================================================
+
+[1/7] Generating synthetic retail dataset …
+    Ground truth saved → results/ground_truth.json
+    Train: 2020-01-01 → 2022-12-03
+    Test : 2022-12-04 → 2022-12-31
+    Products: 30 | Categories: 6 | Depts: 2
+
+[2a/7] Fitting ARIMA …
+    total (1 series) … done
+    department (2 series) … done
+    category (6 series) … done
+    product (30 series) … 

@@ -1,0 +1,13 @@
+category,price_change_pct,beta_posterior_mean,demand_change_pct,revenue_change_pct,optimal_direction
+FOOD_1,-10.0,-1.446,16.46,4.81,True
+FOOD_1,10.0,-1.446,-12.87,-4.16,False
+FOOD_2,-10.0,-1.121,12.54,1.28,True
+FOOD_2,10.0,-1.121,-10.13,-1.15,False
+FOOD_3,-10.0,-0.846,9.32,-1.61,False
+FOOD_3,10.0,-0.846,-7.75,1.48,True
+HH_1,-10.0,-0.556,6.03,-4.57,False
+HH_1,10.0,-0.556,-5.16,4.32,True
+HH_2,-10.0,-0.632,6.89,-3.8,False
+HH_2,10.0,-0.632,-5.85,3.57,True
+HH_3,-10.0,-0.766,8.41,-2.44,False
+HH_3,10.0,-0.766,-7.04,2.26,True
